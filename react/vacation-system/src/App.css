@@ -1,0 +1,50 @@
+.wrapper {
+  padding-top: 1%;
+  padding-bottom: 33%;
+  text-align: center;
+  background-image: url("C:\Diploma project\react\background.jpg");
+  background-position: center;
+  background-size: cover;
+  overflow: auto;
+}
+
+.vacationSystem {
+  color: #422800;
+}
+
+button {
+  background-color: #dddddd;
+  border: 1px solid #422800;
+  border-radius: 10px;
+  box-shadow: #422800 2px 2px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 13px;
+  padding: 0 18px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover {
+  background-color: #fff;
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+h1 {
+  text-shadow: 1px 1px 2px black;
+  color: salmon;
+}
+
+div {
+  color: #422800;
+}

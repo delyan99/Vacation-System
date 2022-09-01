@@ -1,0 +1,32 @@
+.manageTimeOffs {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+.manageTimeOffs thead tr {
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: left;
+}
+
+.manageTimeOffs th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.manageTimeOffs td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.manageTimeOffs tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.manageTimeOffs tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}

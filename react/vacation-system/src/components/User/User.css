@@ -1,0 +1,32 @@
+.users {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+.users thead tr {
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: left;
+}
+
+.users th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.users td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.users tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.users tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}

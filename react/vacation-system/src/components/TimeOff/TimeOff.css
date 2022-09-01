@@ -1,0 +1,75 @@
+.timeOffs {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+.timeOffs thead tr {
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: left;
+}
+
+.timeOffs th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.timeOffs td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.timeOffs tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.timeOffs tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.timeOffCreation {
+    float: left;
+    width: 50%;
+}
+
+.timeOffUpdate {
+    float: left;
+    width: 50%;
+}
+
+.nationalHolidays {
+    justify-content: center;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    text-align: center;
+    float: right;
+    width: 50%;
+}
+
+.nationalHolidays thead tr {
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: left;
+}
+
+.nationalHolidays th {
+    padding: 4px 6px;
+    text-align: center;
+}
+
+.nationalHolidays td {
+    padding: 4px 6px;
+    text-align: left;
+}
+
+.nationalHolidays tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.nationalHolidays tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}

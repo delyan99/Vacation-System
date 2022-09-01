@@ -1,0 +1,36 @@
+.departments {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+.departments thead tr {
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: left;
+}
+
+.departments th {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.departments td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.departments tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.departments tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.departments button {
+    text-align: center;
+}
