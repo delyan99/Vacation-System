@@ -128,7 +128,7 @@ const UpdateUser = () => {
     return (
         <div>
             <NavBar />
-            <h1>User Creation</h1>
+            <h1>Update User</h1>
             <form>
                 <label>
                     <div>

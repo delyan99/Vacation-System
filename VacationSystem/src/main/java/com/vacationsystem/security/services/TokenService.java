@@ -51,5 +51,4 @@ public class TokenService {
 
         return new UserPrincipal(userId, username, isAdmin);
     }
-
 }

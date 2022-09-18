@@ -22,6 +22,7 @@ function App() {
       <h1 className="vacationSystem">Vacation System</h1>
       <BrowserRouter>
         <Routes>
+          <Route path='/' element={<Login />} />
           <Route path="/login" element={<Login />} />
           <Route path="/home" element={
             <PrivateRoute>

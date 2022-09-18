@@ -26,8 +26,8 @@ public class UserServiceImpl implements UserService {
     private final TokenService tokenService;
 
     @Autowired
-    public UserServiceImpl(UserRepository userRepository, DepartmentRepository departmentRepository, ModelMapper mapper, BCryptPasswordEncoder passwordEncoder,
-                           TokenService tokenService){
+    public UserServiceImpl(UserRepository userRepository, DepartmentRepository departmentRepository,
+                           ModelMapper mapper, BCryptPasswordEncoder passwordEncoder, TokenService tokenService){
         this.userRepository = userRepository;
         this.departmentRepository = departmentRepository;
         this.mapper = mapper;

@@ -118,23 +118,6 @@ const CreateTimeOff = () => {
     }
   }
 
-  // function getUserInfoByEmail() {
-  //   fetch("/users/getUserInfoByEmail/" + currentUserEmail.replace("\"", "").replace("\"", ""), {
-  //     headers: {
-  //       Accept: "application/json",
-  //       "Content-Type": "application/json",
-  //       Authorization: `Bearer ${jwt}`,
-  //     },
-  //     method: "get",
-  //   })
-  //     .then((response) => {
-  //       if (response.status === 200) return response.json();
-  //     })
-  //     .then((data) => {
-  //       setCurrentUser(data);
-  //     });
-  // }
-
   function getUserInfoByEmail() {
     fetch("/users/getUserInfoByEmail/" + currentUserEmail.replace("\"", "").replace("\"", ""), {
       headers: {

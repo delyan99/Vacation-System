@@ -1,0 +1,9 @@
+https://bg.wikipedia.org/
+https://docs.microsoft.com/
+https://ubunlog.com/
+https://www.simplilearn.com/
+https://bg.myservername.com/
+https://www.baeldung.com/
+https://www.geeksforgeeks.org/
+https://www.educative.io/
+https://stackoverflow.com/

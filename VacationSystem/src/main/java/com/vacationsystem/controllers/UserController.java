@@ -1,7 +1,6 @@
 package com.vacationsystem.controllers;
 
 import com.vacationsystem.dtos.user.*;
-import com.vacationsystem.services.DepartmentService;
 import com.vacationsystem.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

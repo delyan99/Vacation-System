@@ -11,5 +11,4 @@ public class UserPrincipal{
     private long id;
     private String username;
     private boolean isAdmin;
-
 }
